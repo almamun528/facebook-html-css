@@ -1,42 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook</title>
     <!-- CSS FILE LINK -->
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-     <!-- Font Awesome CDN -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <!-- top area starts here -->
     <header>
-        <div class="topArea flex spaceBetween">
-            <div class="logo">
-                <h1>Facebook</h1>
-            </div>
-            <div class="searchANDmassanger">
-                <i class="search fa-solid fa-magnifying-glass"></i>
-                <i class=" massage fa-brands fa-facebook-messenger"></i>
-            </div>
+      <div class="topArea flex spaceBetween">
+        <div class="logo">
+          <h1>Facebook</h1>
         </div>
+        <div class="searchANDmassanger">
+          <i class="search fa-solid fa-magnifying-glass"></i>
+          <i class="massage fa-brands fa-facebook-messenger"></i>
+        </div>
+      </div>
     </header>
 
     <!-- top area ends here -->
 
     <!--post area  -->
     <main>
-        <div class="dp flex">
-            <img class="profile" src="./images/fb.webp" alt="Display picture a boy typing something in laptop ">
-            <p>What's on your mind?</p>
-        </div>
-        <div class="post">
-            <i class="postIcon fa-solid fa-image"></i>
-        </div>
+      <div class="dp flex">
+        <img
+          class="profile"
+          src="./images/fb.webp"
+          alt="Display picture a boy typing something in laptop "
+        />
+        <p>What's on your mind?</p>
+      </div>
+      <div class="post">
+        <i class="postIcon fa-solid fa-image"></i>
+      </div>
     </main>
     <!-- post area ends here -->
 
-</body>
+    <!-- story area Starts here -->
+
+    <section class="storyCard">
+      <div id="story">
+        <div class="card1">
+          <div class="content">
+            <i class="music fa-solid fa-music"></i>
+            <p>Music</p>
+          </div>
+        </div>
+
+        <div class="card2">
+          <div class="grabProfile">
+            <img class="storyimg" src="./images/fb.webp" alt="" />
+            <p>+</p>
+          </div>
+          <p class="createstory">Create Story</p>
+        </div>
+
+        <div class="card3">
+          <span class="StoryDp"><i class="fa-solid fa-user"></i></span>
+        </div>
+        <!-- <div class="card4">
+                <span class="StoryDp"><i class="fa-solid fa-user"></i></span>
+            </div> -->
+      </div>
+    </section>
+
+    <!-- story section complete -->
+
+    <!--Bottom Navigation -->
+    <nav>
+      <ul>
+        <li>
+          <i class="fa-solid fa-house"></i>
+          home
+        </li>
+        <li><i class="fa-solid fa-shop"></i> Marketplace</li>
+        <li><i class="fa-solid fa-bell"></i> Notification</li>
+        <li><i class="fa-solid fa-bars"></i> Menu</li>
+      </ul>
+    </nav>
+    
+    <!-- bottom Navigation ends here -->
+  </body>
 </html>
